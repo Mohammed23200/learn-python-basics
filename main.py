@@ -1,3 +1,8 @@
-name = input("What is your name?")
-age = input("How old are you?")
-print("your name is "+name +" and you are "+str(age))
+num1 = float(input("Enter first number: "))  # Convert to float
+num2 = float(input("Enter second number: "))  # Convert to float
+
+print("num1 + num2 = " + str(num1 + num2))
+print("num1 - num2 = " + str(num1 - num2))
+print("num1 * num2 = " + str(num1 * num2))
+print("num1 / num2 = " + str(num1 / num2))
+print("num1 % num2 = " + str(num1 % num2))
