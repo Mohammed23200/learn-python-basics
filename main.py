@@ -1,9 +1,14 @@
-strs= "Hello World🌍"
-print(strs+" the first of the magic")
-print(strs.upper())#confirt to apper case .lower()->to make it lower case
-print(strs.islower())#gave us true if the string lower else false .isupper()
-print(strs.upper().isupper())#this will run the first function .upper so this will make the outpput true
-print(len(strs))#this len function take a string as parameter and return number of string
-print(strs[0])#when we want to get access to the chars we typpe the index in the square [] we start from 0 to len()
-print(strs.index("o"))#this will return the index of chars
-print(strs.replace("World","Geeks"))#this take two parameter one the what we want to replace and the second what we put instead in the string
+from math import * #this call the lib named math we call thie moduls
+num1 = 3
+print(num1+1)#we can add
+print(num1-1)#subtract
+print(num1*2)#multiplay
+print(num1/2)#devide
+print(abs(-num1))#this will return the abloute fot the number
+print(pow(num1,2))#this function will make the number power 2
+print(max(num1,2))#this function will return the maxmum of the 2 numbers and we habe min()
+print(round(4.5))#this will return the number 5
+print(floor(4.5))#this will round number dowen
+print(ceil(4.5))#this will return the number up
+print(sqrt(9))#this will gave us the square root
+
