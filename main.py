@@ -1,8 +1,6 @@
-num1 = float(input("Enter first number: "))  # Convert to float
-num2 = float(input("Enter second number: "))  # Convert to float
-
-print("num1 + num2 = " + str(num1 + num2))
-print("num1 - num2 = " + str(num1 - num2))
-print("num1 * num2 = " + str(num1 * num2))
-print("num1 / num2 = " + str(num1 / num2))
-print("num1 % num2 = " + str(num1 % num2))
+color = input("What is your favorite color? ")
+plural_noun = input("What is your favorite plural noun? ")
+celebrity = input("Who is your favorite celebrity? ")
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
